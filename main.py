@@ -8,7 +8,7 @@ import os
 class AnaProgram:
     def __init__(self, root):
         self.root = root
-        self.root.title("CİHAZ TAKİP SİSTEMİ - ANA MENU")
+        self.root.title("CİHAZ TAKİP SİSTEMİ - ANA MENÜ")
         self.root.geometry("500x500")
         self.root.resizable(False, False)
         
