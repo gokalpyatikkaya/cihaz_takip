@@ -26,13 +26,7 @@ class AnaProgram:
                          fg='white')
         baslik.pack(expand=True, pady=30)
         
-        # İSİM EKLENDİ
-        isim_label = tk.Label(baslik_frame,
-                             text="Gökalp YATIKKAYA",
-                             font=('Arial', 12, 'italic'),
-                             bg='#34495e',
-                             fg='#ecf0f1')
-        isim_label.pack(pady=(0, 10))
+       
         
         # Butonlar için frame
         buton_frame = tk.Frame(root, bg='#2c3e50')
